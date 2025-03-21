@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(148, 166, 174, .5);
+}
+
+header {
+  width: 100%;
+  border-top: 2px solid #081038;
+  border-bottom: 2px solid #081038;
+  display:flex;
+  position: fixed;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57889F;
+}
+
+header img {
+  height: 100px;
+  width:100px;
+  margin: 5px;
+}
+
+header h1 {
+  margin-right:300px;
+  font-family: 'Brush Script MT';
+  font-size: 65px;
+  letter-spacing: 5px;
+  color: #081038;
+}
+ 
+nav {
+  margin-right: 25px;
+}
+  
+nav li {
+  display: inline-flex;
+  margin-right: 25px;
+}
+
+nav a {
+  font-family: 'Bradley Hand';
+  font-size: 30px;
+}
+
+nav a:link,
+nav a:visited {
+  color: #081038;
+}
+
+nav a:hover {
+  color: #C7DFEB;
+} 
+
+main {
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  padding: 150px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  border-top: 2px solid #081038;
+  border-bottom: 2px solid #081038;
+  position: fixed;
+  bottom: 0;
+  display:flex;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: #57889F;
+}
+
+footer li {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+footer a {
+  font-family: 'Bradley Hand';
+  font-size: 20px;
+}
+
+footer a:link,
+footer a:visited {
+  color: #081038;
+}
+
+footer a:hover {
+  color: #C7DFEB;
+} 
+
