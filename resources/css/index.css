@@ -1,9 +1,12 @@
-h2 {
-  color: blue;
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefaee url(/resources/images/banner.jpg) no-repeat center center;
+  background-size: contain;
 }
 
-p {
-  padding: 300px;
-  font-size: 100px;
-  color: red;
+.full-link {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
